@@ -1,0 +1,110 @@
+
+.header{
+    background-color: var(--color--grey--1);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    border-bottom: 2px solid var(--brand--color--1);
+}
+.main{
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: var(--color--grey--2);
+}
+.section--primary{
+    background-color: var(--color--grey--2);
+    height:90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section--presentation{
+    height: 30%;
+    background-color: var(--color--grey--1);
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: center;
+}
+.section--faq{
+    background-color: var(--color--grey--2);
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+.section__content--faq{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.faq-item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content__faq--info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.section--testimonials{
+    background-color: var(--color--grey--2);
+    display: grid;
+    grid-template-columns: 500px 400px;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 50px;
+    height: 100%;
+    padding-bottom: 70px;
+}
+
+.testimonial__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    height: 100%;
+}
+.testimonial-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.testimonial__header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brand--color--1);
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+.section__content--feedback{
+    display: flex;
+    width: 350px;
+    height: 300px;
+}
+.footer{
+    height: 80px;
+    display: flex;
+    background-color: var(--color--grey--1);
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+dialog {
+    position: relative;
+    padding: 0px;
+    border: none;
+    top: -12em;
+}
+
+dialog::backdrop {
+    background-color: rgba(0,0,0, 0.7);
+  }
+
+.modal__controller {
+    width: 400px;
+    height: 350px;
+    background-color: var(--color--grey--1);
+}
+.modal__container {
+    background-color: var(--color--grey--1);
+    margin: 20px;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.modal__align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.modal__input {
+    width: 100%;
+    height: 50px;
+    background-color: var(--color--grey--2);
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    color: var(--color--grey--3);
+    font-size: var(--text--size--8);
+}
+::placeholder {
+    padding-left: 10px;
+    font-size: var(--text--size--6);
+}
